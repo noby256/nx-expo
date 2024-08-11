@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "@nx-repo/source",
+    "slug": "@nx-reposource",
+    "version": "0.0.0",
+    "sdkVersion": "51.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "bundleIdentifier": "eu.technikwerk.expo-app"
+    }
+  }
+}
