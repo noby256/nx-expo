@@ -17,7 +17,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "eu.technikwerk.expo-app"
     },
     "android": {
       "adaptiveIcon": {
@@ -30,6 +31,10 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": []
+    "plugins": [ "expo-asset",
+
+      {
+        "assets": ["./assets/images/example.png"]
+      }]
   }
 }

@@ -8,6 +8,8 @@
     "metro-config": "*",
     "react-native": "*",
     "expo": "*",
+    "expo-status-bar": "*",
+    "@expo/vector-icons": "*",
     "react-native-svg": "*",
     "react-native-web": "*",
     "react": "18.2.0"
